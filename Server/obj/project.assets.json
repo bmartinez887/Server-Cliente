@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/brisamartinez/Tec. de Simulacion/Server/Server/Server.csproj",
+      "projectUniqueName": "/Users/brisamartinez/Tec. de Simulacion/Cliente_Server/Server-Cliente/Server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "/Users/brisamartinez/Tec. de Simulacion/Server/Server/Server.csproj",
+      "projectPath": "/Users/brisamartinez/Tec. de Simulacion/Cliente_Server/Server-Cliente/Server/Server.csproj",
       "packagesPath": "/Users/brisamartinez/.nuget/packages/",
-      "outputPath": "/Users/brisamartinez/Tec. de Simulacion/Server/Server/obj/",
+      "outputPath": "/Users/brisamartinez/Tec. de Simulacion/Cliente_Server/Server-Cliente/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/brisamartinez/.nuget/NuGet/NuGet.Config"

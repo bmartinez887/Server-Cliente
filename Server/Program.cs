@@ -55,10 +55,19 @@ class ChatServer
                     break;
                 }
 
-                string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                string fullMessage = userName + ": " + message;
+                string message = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
+                string fullMessage;
 
-                Console.WriteLine("Received message: " + fullMessage);
+                if (int.TryParse(message, out int number))
+                {
+                    fullMessage = userName + " sent a number: " + number;
+                }
+                else
+                {
+                    fullMessage = userName + ": \"" + message + "\" is not valid — only integers are accepted.";
+                }
+
+                Console.WriteLine("Received: " + fullMessage);
                 Broadcast(fullMessage);
             }
         }
